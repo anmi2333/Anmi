@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="orderDao" class="com.itheima.service.OrderDaoFactory" factory-method="getOrderDao">-->
+<!--    配置server与dao关系-->
+<!--    <property name="bookDao" ref="orderDao"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="bookDao" name="dao2 dao bookEbi" class="com.itheima.dao.impl.BookDaoImpl" scope="prototype"  />-->
+<!--  singleton  默认单例-->
+
+<!--    <bean id="userFactory" class="com.itheima.service.UserDaoFactory" />-->
+<!--    <bean id="userDao"  factory-method="getUserDao" factory-bean="userFactory" />-->
+    <bean id="userDao" class="com.itheima.service.impl.BookServiceImpl" />
+
+</beans>

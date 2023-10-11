@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:14:04 +0900] "GET /commonParm HTTP/1.1" 200 22 http-bio-80-exec-2 80
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:15:24 +0900] "GET /commonParm?name=itcast HTTP/1.1" 200 22 http-bio-80-exec-5 2
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:15:53 +0900] "GET /commonParm?name=itcast HTTP/1.1" 200 22 http-bio-80-exec-2 74
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:19:34 +0900] "GET /commonParm HTTP/1.1" 200 22 http-bio-80-exec-5 2
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:20:15 +0900] "GET /commonParm HTTP/1.1" 500 4491 http-bio-80-exec-2 68
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:20:59 +0900] "GET /commonParm HTTP/1.1" 500 4491 http-bio-80-exec-2 70
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:21:15 +0900] "GET /commonParm?age=15&name=wang HTTP/1.1" 200 22 http-bio-80-exec-4 32
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:21:20 +0900] "GET /commonParm?age=15&name=wang HTTP/1.1" 200 22 http-bio-80-exec-5 2
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:21:29 +0900] "GET /commonParm?age=15&name=wang HTTP/1.1" 200 22 http-bio-80-exec-6 2
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:21:56 +0900] "GET /commonParm HTTP/1.1" 500 4491 http-bio-80-exec-7 4
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:23:37 +0900] "POST /commonParam?name=chao&age=15 HTTP/1.1" 400 968 http-bio-80-exec-2 70
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:24:40 +0900] "POST /commonParam HTTP/1.1" 200 22 http-bio-80-exec-4 23
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:29:19 +0900] "POST /commonParam HTTP/1.1" 200 22 http-bio-80-exec-2 87
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:31:36 +0900] "POST /commonParam HTTP/1.1" 200 22 http-bio-80-exec-2 77
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:33:38 +0900] "POST /commonParam HTTP/1.1" 200 22 http-bio-80-exec-2 83
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:33:41 +0900] "POST /commonParam HTTP/1.1" 200 22 http-bio-80-exec-3 2
+0:0:0:0:0:0:0:1 - - [02/Sep/2023:23:36:14 +0900] "POST /commonParam HTTP/1.1" 200 22 http-bio-80-exec-2 141

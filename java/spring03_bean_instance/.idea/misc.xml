@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring04/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring05_di_set/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring06_di_constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring07_di_autoware/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring08_di_collection/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring09_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_10_container/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring11_annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring10_container/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring12_annotation_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring13_annotation_di/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring14/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring15_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring16_spring_junit/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring17_aop_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring18_aop_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring19_aop_pointcut/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring20_advice_type/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring21_case_interfacve_run_speed/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring22_aop_advice_data/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring23/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring24/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring24_case_transfer/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring25_case_transfer_log/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring11/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

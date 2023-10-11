@@ -1,0 +1,26 @@
+country: china
+province: beijing
+city: beijing
+area: haidian
+
+port: 8080
+
+party: true
+
+birthday: 1949-10-01
+
+user:
+  name: itcast
+  age: 16
+
+user2:
+  name: itheima
+  age: 16
+
+  a:
+    b:
+      c:
+        d:
+          e: 123
+
+

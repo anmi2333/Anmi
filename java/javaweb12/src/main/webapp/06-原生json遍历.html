@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var person = {"name":"张三","age":23,'gender':true}
+
+        var persons = {
+            "persons" : [
+            {"name":"张1","age":23,'gender':true},
+            {"name":"张2","age":24,'gender':true},
+            {"name":"张3","age":25,'gender':false}
+        ]}
+        //获取对象中所有的kv
+        for (var key in person) {
+            alert(key + ":" + person[key]);
+        }
+
+        for (var i = 0; i < persons.length; i++) {
+            var p = persons[i];
+            for (var key in p) {
+                alert(key + ":" + p[key]);
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

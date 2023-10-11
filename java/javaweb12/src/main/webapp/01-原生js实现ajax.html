@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //事件监听方法
+        function fun() {
+            //发送异步请求
+            //1 创建核心对象
+            var xmlhttp;
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            } else {// code for IE6,IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            //2 发送请求
+            /**
+             * 1.请求方式 get post
+             * 2.请求url
+             * 3.同步或异步请求 true异步 fa️lse同步
+             * */
+            xmlhttp.open("GET","ajaxServlet?username=tom",true);
+            //3 发送请求
+            xmlhttp.send();
+            //4 接收并处理来自服务器的响应结果 xmlhttp.responseText;
+            xmlhttp.onreadystatechange=function () {
+             if (xmlhttp.readyState==4 && xmlhttp.status==200)
+             {
+                 //document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+                 var responseText = xmlhttp.responseText;
+                 alert(responseText);
+             }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="发送异步请求" onclick="fun();">
+    <input>
+</body>
+</html>
